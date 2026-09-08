@@ -1,0 +1,23 @@
+__pycache__/
+*.pyc
+.venv/
+env/
+.env
+.vscode/
+
+# Local databases and generated database files
+*.db
+*.sqlite3
+*.sqlite
+
+# Python tooling and test output
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
