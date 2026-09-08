@@ -131,14 +131,6 @@ python manage.py runserver
 
 Open `http://127.0.0.1:8000/` in a browser.
 
-## Validation
-
-The repository was checked after organization:
-
-- Python syntax validation passed for all training programs.
-- Django system checks passed with no issues.
-- Local databases, virtual environments, Python caches, and generated analysis outputs are excluded through `.gitignore`.
-
 ## Learning Outcome
 
 This training established a practical foundation in Python Programming, moving from basic syntax and problem solving to object-oriented design, data analysis, database operations, web application development, Git workflow, and professional coding practices.
