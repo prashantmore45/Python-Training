@@ -4,6 +4,8 @@ print("=" * 60)
 print("       MATPLOTLIB STUDENT PERFORMANCE ANALYZER")
 print("=" * 60)
 
+from pathlib import Path
+
 # ------------------------------------------------
 # DATA
 # ------------------------------------------------
@@ -196,7 +198,7 @@ plt.xlabel("Subject")
 plt.ylabel("Marks")
 
 plt.savefig(
-    "student_performance.png",
+    Path(__file__).with_name("student_performance.png"),
     dpi=300,
     bbox_inches="tight"
 )

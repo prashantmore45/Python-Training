@@ -65,10 +65,10 @@ The training also covered concepts that are not included as separate programs in
 | `day_01_fundamentals` | Python syntax, variables, data types, input/output, operators, conditions, loops, functions, and strings |
 | `day_02_data_structures` | Lists, tuples, sets, dictionaries, collection operations, and the Student Marks System mini-project |
 | `day_03_oop` | Classes, objects, constructors, methods, inheritance, method overriding, polymorphism, encapsulation, rectangles, and student records |
-| `day_04_files_modules` | File creation, reading, writing, appending, file information, line counting, modules, imports, and reusable functions |
-| `day_05_exceptions` | Built-in exceptions, `try`, `except`, `else`, `finally`, `raise`, custom exceptions, safe division, and marks validation |
-| `day_06_data_analysis` | NumPy arrays, Pandas DataFrames, CSV analysis, Matplotlib charts, SQLite, parameterized SQL, CRUD, and integrated student analysis |
-| `day_07_django` | `college_portal` Django project with MVT architecture, models, migrations, URLs, views, templates, admin, CRUD operations, and a student portal |
+| `day_04_files_modules_exceptions` | File handling, modules/imports, reusable functions, and exception handling practice |
+| `day_05_libraries` | NumPy arrays, Pandas Series/DataFrames, Matplotlib charts, and basic data analysis |
+| `day_06_sql_django_intro` | SQL statements, parameterized queries, SQLite CRUD operations, and Django introduction concepts |
+| `day_07_django_git` | `college_portal` Django project, student records, marks, highest-score dashboard, Git, and GitHub/version control |
 
 ## Programs and Projects
 
@@ -86,20 +86,27 @@ The OOP examples demonstrate classes and objects, constructors, multiple objects
 
 ### Files, Modules, and Exceptions
 
-The file and module examples demonstrate persistent text storage, reading and writing modes, appending, file metadata, reusable modules, imports, and counting file lines. The exception examples cover common runtime errors, safe division, validation, raised errors, and custom exception classes.
+The Day 4 examples demonstrate persistent text storage, reading and writing modes, appending, file metadata, reusable modules, imports, counting file lines, common runtime errors, safe division, validation, raised errors, and custom exception classes.
 
-### Data Analysis and SQLite
+### Python Libraries
 
-The Day 6 programs use:
+The Day 5 programs use:
 
 - **NumPy** for arrays, indexing, slicing, reshaping, arithmetic, and statistics.
 - **Pandas** for Series, DataFrames, CSV files, filtering, sorting, calculated columns, and grouping.
 - **Matplotlib** for line, bar, scatter, histogram, pie, and multi-chart visualizations.
-- **SQLite** for table creation, inserts, safe parameterized queries, selection, filtering, sorting, updates, deletes, transactions, and CRUD workflows.
+
+The library practice includes array dimensions, shape, size, data types, indexing, slicing, basic array operations, Series, DataFrames, indexing, and basic data handling and analysis.
+
+### SQL and CRUD
+
+The Day 6 programs demonstrate SQL and SQLite table creation, `SELECT`, `WHERE`, `ORDER BY`, `GROUP BY`, `HAVING`, aggregate functions, parameterized queries, inserts, updates, deletes, transactions, and CRUD workflows.
 
 The integrated analysis program combines SQLite, Pandas, and Matplotlib to calculate and visualize average marks by department.
 
-### Django Student Portal
+Day 6 also introduced Django installation, the MVT architecture, Django files, and project structure before the complete project work on Day 7.
+
+### Django, College Portal, and Version Control
 
 The Day 7 `college_portal` project is a Django student portal containing:
 
@@ -110,6 +117,8 @@ The Day 7 `college_portal` project is a Django student portal containing:
 - HTML templates for home, student listing, search, add, edit, and high-scorer pages
 - Admin and test modules
 - SQLite database support
+
+The project practices student details, marks, student records, and a highest-score dashboard. Day 7 also covered Git, GitHub, repositories, staging, commits, branches, remotes, and version-control workflow.
 
 ## Setup
 
@@ -124,7 +133,7 @@ pip install -r requirements.txt
 Run the Django project:
 
 ```powershell
-cd day_07_django\college_portal
+cd day_07_django_git\college_portal
 python manage.py migrate
 python manage.py runserver
 ```
