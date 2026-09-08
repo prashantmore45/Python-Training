@@ -1,15 +1,144 @@
-# Python Training - 7 Days
+# Python Programming Training
 
-The training files are grouped by recorded date and topic:
+This repository contains the programs, exercises, and projects completed during a seven-day Python Programming training program.
 
-| Folder | Topics |
+## Training Details
+
+| Detail | Information |
 | --- | --- |
-| `day_01_fundamentals` | Python syntax, variables, input, conditions, loops, functions, and strings |
-| `day_02_data_structures` | Lists and the starter mini-project |
-| `day_03_oop` | Inheritance, method overriding, and encapsulation |
-| `day_04_files_modules` | File handling, modules, imports, and the sample text file |
-| `day_05_exceptions` | Built-in and custom exception handling |
-| `day_06_data_analysis` | NumPy, Matplotlib, Pandas, SQLite, standalone CRUD, and analysis outputs |
-| `day_07_django` | Django student portal and its database |
+| Institute | Sinhgad Institute of Lonavala |
+| Training | Python Programming |
+| Duration | 7 days |
+| Dates | 2 September 2026 to 8 September 2026 |
+| Organized by | Training and Placement Office (TPO) |
+| TPO Professor | Prof. Mayur Raut Sir |
+| Training partner | Rubicon Skill Development |
+| Trainer | Yogesh Gend Sir |
+| Trainer LinkedIn | [Yogesh Gend](https://www.linkedin.com/in/yogesh-gend/) |
 
-The root `.gitignore` remains at the workspace root. Generated Python caches are kept with the file/module exercises in Day 4.
+The training combined Python fundamentals, object-oriented programming, file handling, exception handling, data analysis, databases, Django web development, Git, and coding standards.
+
+## Additional Concepts Learned
+
+The training also covered concepts that are not included as separate programs in this repository:
+
+### Python Background and Development
+
+- Python history, Guido van Rossum, and the first public release.
+- Python features including readability, interpreted execution, dynamic typing, portability, and its library ecosystem.
+- Python applications in web development, automation, data science, artificial intelligence, machine learning, scripting, and cybersecurity.
+- Python installation, editors, terminals, interpreter execution, comments, naming rules, keywords, and code indentation.
+- Pre-assessment concepts such as programming, programming languages, variables, data types, conditions, loops, and functions.
+
+### Problem-Solving Practice
+
+- Predicting program output before execution.
+- Modifying values and statements to observe program behavior.
+- Homework and classroom exercises for area calculation, simple interest, palindrome checking, vowel counting, word counting, and student records.
+
+### Django Concepts
+
+- Web development fundamentals and the request-response flow.
+- Django installation, project creation, app creation, settings, middleware, static files, and templates.
+- MVT architecture and its relationship to the broader MVC pattern.
+- Django ORM concepts, querysets, filtering, creating, updating, and deleting model records.
+- Database migrations, development-server workflow, and application configuration.
+
+### Git and Version Control
+
+- Git versus GitHub and the purpose of distributed version control.
+- Repositories, working files, staging, commits, branches, remotes, and project history.
+- `git init`, `git status`, `git add`, `git commit`, `git log`, `git branch`, `git switch`, `git merge`, `git clone`, `git fetch`, `git pull`, and `git push`.
+- `.gitignore`, remote repositories, feature branches, merge conflicts, and collaboration workflow.
+
+### Professional Coding Practices
+
+- Readable naming, consistent formatting, indentation, comments, and modular program structure.
+- Code review, testing, debugging, error diagnosis, and documentation.
+- Avoiding secrets, passwords, virtual environments, generated files, and unnecessary database files in version control.
+- Writing maintainable code that is easier to understand, test, and extend.
+
+## Repository Structure
+
+| Folder | Topics Covered |
+| --- | --- |
+| `day_01_fundamentals` | Python syntax, variables, data types, input/output, operators, conditions, loops, functions, and strings |
+| `day_02_data_structures` | Lists, tuples, sets, dictionaries, collection operations, and the Student Marks System mini-project |
+| `day_03_oop` | Classes, objects, constructors, methods, inheritance, method overriding, polymorphism, encapsulation, rectangles, and student records |
+| `day_04_files_modules` | File creation, reading, writing, appending, file information, line counting, modules, imports, and reusable functions |
+| `day_05_exceptions` | Built-in exceptions, `try`, `except`, `else`, `finally`, `raise`, custom exceptions, safe division, and marks validation |
+| `day_06_data_analysis` | NumPy arrays, Pandas DataFrames, CSV analysis, Matplotlib charts, SQLite, parameterized SQL, CRUD, and integrated student analysis |
+| `day_07_django` | `college_portal` Django project with MVT architecture, models, migrations, URLs, views, templates, admin, CRUD operations, and a student portal |
+
+## Programs and Projects
+
+### Python Fundamentals
+
+The fundamentals exercises include Hello World, student details, arithmetic operations, area calculation, number comparisons, pass/fail and grade logic, loops, multiplication tables, string operations, and reusable functions.
+
+### Data Structures and Mini-Project
+
+The collection exercises demonstrate list manipulation, list calculations, tuple access, set union/intersection/difference, dictionary updates and iteration, and removal of duplicate values. The `miniproject1.py` program implements a Student Marks System with grades, highest-scorer reporting, and class-average calculation.
+
+### Object-Oriented Programming
+
+The OOP examples demonstrate classes and objects, constructors, multiple objects, inheritance, method overriding, polymorphism, encapsulation, a `Rectangle` class, and student records.
+
+### Files, Modules, and Exceptions
+
+The file and module examples demonstrate persistent text storage, reading and writing modes, appending, file metadata, reusable modules, imports, and counting file lines. The exception examples cover common runtime errors, safe division, validation, raised errors, and custom exception classes.
+
+### Data Analysis and SQLite
+
+The Day 6 programs use:
+
+- **NumPy** for arrays, indexing, slicing, reshaping, arithmetic, and statistics.
+- **Pandas** for Series, DataFrames, CSV files, filtering, sorting, calculated columns, and grouping.
+- **Matplotlib** for line, bar, scatter, histogram, pie, and multi-chart visualizations.
+- **SQLite** for table creation, inserts, safe parameterized queries, selection, filtering, sorting, updates, deletes, transactions, and CRUD workflows.
+
+The integrated analysis program combines SQLite, Pandas, and Matplotlib to calculate and visualize average marks by department.
+
+### Django Student Portal
+
+The Day 7 `college_portal` project is a Django student portal containing:
+
+- A Django project named `studentportal`
+- A `students` application
+- Student models and database migrations
+- URL routing and views
+- HTML templates for home, student listing, search, add, edit, and high-scorer pages
+- Admin and test modules
+- SQLite database support
+
+## Setup
+
+Create or activate a virtual environment, then install the dependencies:
+
+```powershell
+python -m venv .venv
+.venv\Scripts\Activate.ps1
+pip install -r requirements.txt
+```
+
+Run the Django project:
+
+```powershell
+cd day_07_django\college_portal
+python manage.py migrate
+python manage.py runserver
+```
+
+Open `http://127.0.0.1:8000/` in a browser.
+
+## Validation
+
+The repository was checked after organization:
+
+- Python syntax validation passed for all training programs.
+- Django system checks passed with no issues.
+- Local databases, virtual environments, Python caches, and generated analysis outputs are excluded through `.gitignore`.
+
+## Learning Outcome
+
+This training established a practical foundation in Python Programming, moving from basic syntax and problem solving to object-oriented design, data analysis, database operations, web application development, Git workflow, and professional coding practices.
