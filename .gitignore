@@ -1,0 +1,29 @@
+__pycache__/
+*.pyc
+.venv/
+env/
+.env
+.vscode/
+
+# Local databases and generated database files
+*.db
+*.sqlite3
+*.sqlite
+
+# Python tooling and test output
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+
+# Generated training outputs
+student_performance.png
+student_chart_gallery.png
+average_marks_by_department.png
+training_students.db
